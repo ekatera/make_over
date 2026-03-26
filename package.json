@@ -1,0 +1,23 @@
+{
+  "name": "make_over",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src:dist --no-source-map --style=expanded",
+    "watch": "sass src:dist --watch --style=expanded"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekatera/make_over.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekatera/make_over/issues"
+  },
+  "homepage": "https://github.com/ekatera/make_over#readme",
+  "dependencies": {
+    "sass": "^1.98.0"
+  }
+}
