@@ -292,3 +292,22 @@ main {
         }
     }
 }
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .main-content {
+        width: 100% !important;
+        flex-direction: column;
+    }
+
+    .actual-section, .focus-section {
+        width: 100% !important;
+    }
+
+    .side-content {
+        width: 100% !important;
+    }
+}
